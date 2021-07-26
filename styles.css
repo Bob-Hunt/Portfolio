@@ -1,0 +1,164 @@
+
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+.wrapper {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  background-color: black;
+  color: chartreuse;
+}
+
+.top-wrapper {
+  text-align: center;
+}
+
+.mobile-top {
+  background-color: black;
+  height: 20px;
+}
+
+.mobile-bottom {
+  background-color: black;
+  height: 20px;
+}
+
+#title-wrapper {
+  height: 50vh;
+  height: 72vh;
+  width: 100vw;
+  background: black;
+}
+
+#title-row1 {
+  padding-top: 50px;
+  text-align: center;
+  color: chartreuse;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 100;
+
+
+}
+
+#title-row2 {
+  padding-top: 20px;
+  text-align: center;
+  color: chartreuse;
+  font-family: 'CustomFont', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: normal;
+
+}
+
+#title-row3 {
+  text-align: center;
+  color: chartreuse;
+  font-family: 'CustomFont', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 100;
+
+}
+
+.footer-wrapper {
+  text-align: center;
+  background-color: black;
+}
+
+/* #footer-hr{
+    color: chartreuse;
+} */
+
+#footer-msg {
+  background-color: black;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: chartreuse;
+  font-size: 1.5vw;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+/* Typewriter Effect */
+#var-highlight{
+    color: chartreuse;
+    min-width: 50vw;
+    max-width: 80vw;
+    font-size: 4.5vw;
+    text-align: center;
+    align-items: center;
+}
+
+#string-highlight{
+    color: chartreuse;
+    min-width: 50vw;
+    max-width: 80vw;;
+    font-size: 4.5vw;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (min-height: 1406) and (min-width: 0px) and (max-width: 700px) {
+    #string-highlight-mobile {    
+        display: block;
+        color: chartreuse;
+        min-width: 50vw;
+        max-width: 80vw;;
+        font-size: 4.5vw;
+        text-align: center;
+        align-items: center;
+    }
+    #string-highlight-desktop {    
+        display: none;
+        color: chartreuse;
+        min-width: 50vw;
+        max-width: 80vw;;
+        font-size: 2.5vw;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-height: 1405) and (min-width: 701px) and (max-width: 3000px) {
+    #string-highlight-mobile {    display: none;  }
+    #string-highlight-desktop {    display: block;  }
+}
+  
+#typewriter{
+    font-size: 2em;
+    margin: 0;
+    font-family: "Press Start 2P";
+
+        &:after{
+            content: "|";
+            animation: blink 500ms linear infinite alternate;
+        }
+}
+  
+@-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+  
+@-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+  
+@keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

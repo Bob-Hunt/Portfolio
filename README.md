@@ -1,5 +1,8 @@
-Portfolio
+Portfolio - 
+https://elevenfifty.instructure.com/courses/720/assignments/14413
 Due Aug 5 by 5:30pm Points 40 Submitting a website url
+
+
 Project Overview  
 
 We have consulted with our Industry Advisory Board and a major component for job consideration is that a student should be able to show a list of projects that they have completed, along with easy to access information about your work history and current GitHub activity. Your portfolio is one link that can be provided to future employers to showcase your skills and present easily accessible information about you.
