@@ -59,3 +59,12 @@ Note: You may NOT use a prebuilt template for your Portfolio. This project needs
 Submission
 Submit the link to your portfolio's GitHub repository, NOT the deployed link.
 
+******************************************************
+Shuffle.js
+vestride.github.io/Shuffle/
+
+Categorize, sort, and filter a responsive grid of items
+
+Install
+npm install shufflejs
+******************************************************
