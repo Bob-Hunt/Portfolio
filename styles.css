@@ -284,7 +284,9 @@ hr {
   color: white;
   background-size: cover;
   background-image: url("Assets/Steampunk_images/shutterstock_1637325505.jpeg");
-  height: 100%;
+  height: 500px;
+  margin-bottom: 200px;
+  padding-bottom: 300px;;
 }
 
 #photos{
@@ -295,7 +297,7 @@ hr {
   color: black;
   background-size: cover;
   background-image: url("Assets/Steampunk_images/shutterstock_452363785.jpeg");
-  height: 100%;
+  height: 200%;
 }
 
 #projects{
@@ -304,6 +306,7 @@ hr {
 
 #projects-row{
   padding-top: 40px;
+  height: 150%;
   background-size: cover;
   background-image: url("Assets/Steampunk_images/AdobeStock_6645031.jpeg");
 }
@@ -330,6 +333,10 @@ img:hover {
 
 .resume{
   background-color: white;
+  height: 100%;
+  height: auto;
+  width: 100%;
+  margin-top: 500px;
 }
 
 .contact-wrapper{
