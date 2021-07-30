@@ -51,18 +51,18 @@ hr {
 #title-wrapper {
   position: relative;
   text-align: center;
+  justify-content: center;
   height: 50vh;
   height: 72vh;
-  width: 100vw;
+  width: 100%;
   background-size: contain;
   background: black;
-  background-image: url("Assets/Steampunk_images/AdobeStock_110452811.jpeg");
+  /* background-image: url("Assets/Steampunk_images/shutterstock_1852804258.jpeg"); */
 }
 
 #computer{
-  position: absolute;
-  left: -110px;
-  margin-top: 0px;
+  position: relative;
+  text-align: center;
   width: 100vw;
 }
 
@@ -79,6 +79,7 @@ hr {
   font-family: 'VT323';
   font-weight: lighter;
   font-size: xx-small;
+  width: 10px;
 }
 
 #title-row2 {
@@ -249,23 +250,6 @@ hr {
   background-image: url("Assets/Steampunk_images/AdobeStock_6645031.jpeg");
 }
 
-.contact-wrapper{
-  background-color: white;
-}
-
-#contact{
-  color: black;
-  background-color: white;
-}
-
-.contact{
-  color: black;
-  background-color: white;
-  background-size: cover;
-  background-image: url("Assets/Steampunk_images/shutterstock_1196700412.jpeg");
-  height: 100%;
-}
-
 /* Thumbnails */
 img {
   border: 1px solid #ddd; /* Gray border */
@@ -286,14 +270,31 @@ img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
+.resume{
+  background-color: white;
+}
+
+.contact-wrapper{
+  background-color: white;
+}
+
+#contact{
+  color: black;
+  background-color: white;
+}
+
+.contact{
+  color: black;
+  background-color: white;
+  background-size: cover;
+  background-image: url("Assets/Steampunk_images/shutterstock_1196700412.jpeg");
+  height: 100%;
+}
+
 .footer-wrapper {
   text-align: center;
   background-color: black;
 }
-
-/* #footer-hr{
-    color: chartreuse;
-} */
 
 #footer-msg {
   background-color: black;
