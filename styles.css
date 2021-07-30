@@ -57,7 +57,7 @@ hr {
   background-size: contain;
   background: black;
   background-image: url("Assets/Steampunk_images/shutterstock_1852804258.jpeg");
-
+  background-image: url("Assets/Steampunk_images/shutterstock_1852804258.jpeg");
 }
 
 #computer{
@@ -263,7 +263,7 @@ hr {
   padding-left: 60px;
   color:black;
   font-weight: bold;
-  height: 200%;
+  width: 100%;
   background-size: cover;
   background-image: url("Assets/Steampunk_images/shutterstock_131942996.jpeg");
 }
@@ -334,7 +334,7 @@ img:hover {
 .resume{
   background-color: white;
   height: 100%;
-  height: auto;
+  /* height: auto; */
   width: 100%;
   margin-top: 500px;
 }
