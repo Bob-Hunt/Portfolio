@@ -258,12 +258,21 @@ hr {
   font-family: fantasy;
 }
 
+.hobbies-spacer{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 150px;
+  margin-bottom:150px;
+}
+
 .hobbies{
-  padding-top: 140px;
+  padding-top: 200px;
   padding-left: 60px;
   color:black;
   font-weight: bold;
   width: 100%;
+  margin-top: 250px;
+  padding-bottom: 200px;
   background-size: cover;
   background-image: url("Assets/Steampunk_images/shutterstock_131942996.jpeg");
 }
@@ -293,22 +302,29 @@ hr {
   color: white;
 }
 
+.spacer{
+  margin-top: 150px;
+}
+
 .projects{
-  color: black;
+  color: white;
   background-size: cover;
-  background-image: url("Assets/Steampunk_images/shutterstock_452363785.jpeg");
+  /* background-image: url("Assets/Steampunk_images/shutterstock_452363785.jpeg"); */
   height: 200%;
 }
 
-#projects{
+.my-projects{
   color: white;
+  text-align: center;
 }
 
 #projects-row{
   padding-top: 40px;
   height: 150%;
   background-size: cover;
-  background-image: url("Assets/Steampunk_images/AdobeStock_6645031.jpeg");
+  align-content:space-around;
+  justify-content: center;
+  /* background-image: url("Assets/Steampunk_images/AdobeStock_6645031.jpeg"); */
 }
 
 /* Thumbnails */
@@ -324,6 +340,7 @@ img {
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: 150px; /* Set a small width */
+  margin-bottom: 300px;
 }
 
 /* Add a hover effect (blue shadow) */
@@ -341,6 +358,7 @@ img:hover {
 
 .contact-wrapper{
   background-color: white;
+  padding-left: 20px;
 }
 
 #contact{
