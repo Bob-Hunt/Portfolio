@@ -1,3 +1,4 @@
+// Typewriter Effect
 function setupTypewriter(t) {
     var HTML = t.innerHTML;
 
