@@ -54,8 +54,9 @@ hr {
   height: 50vh;
   height: 72vh;
   width: 100vw;
-  background-image: ;
+  background-size: contain;
   background: black;
+  background-image: url("Assets/Steampunk_images/AdobeStock_110452811.jpeg");
 }
 
 #computer{
@@ -75,10 +76,9 @@ hr {
   text-align: center;
   color: chartreuse;
   font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323';
   font-weight: lighter;
   font-size: xx-small;
-
-
 }
 
 #title-row2 {
@@ -89,6 +89,7 @@ hr {
   font-weight: normal;
   font-style: normal;
   font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323';
   font-weight: lighter;
   font-size: xx-small;
 }
@@ -100,29 +101,9 @@ hr {
   font-weight: normal;
   font-style: normal;
   font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323';
   font-weight: lighter;
   font-size: xx-small;
-}
-
-.footer-wrapper {
-  text-align: center;
-  background-color: black;
-}
-
-/* #footer-hr{
-    color: chartreuse;
-} */
-
-#footer-msg {
-  background-color: black;
-  text-align: center;
-  font-family: 'Press Start 2P', cursive;
-  color: chartreuse;
-  font-size: 1.5vw;
-  text-align: center;
-  align-items: center;
-
-
 }
 
 /* Typewriter Effect */
@@ -199,7 +180,20 @@ hr {
 #brief-history{
   color: black;
   font-family: fantasy;
+}
 
+#brief-history{
+  color: black;
+  background-size: cover;
+  background-image: url("Assets/Steampunk_images/verticalPaper.jpeg");
+  height:  100%;
+}
+
+#long-history{
+  color: black;
+  background-size: cover;
+  background-image: url("Assets/Steampunk_images/verticalPaper.jpeg");
+  height: 100%;
 }
 
 #long-history{
@@ -217,7 +211,9 @@ hr {
   color:black;
   font-weight: bold;
   height: 100%;
-  background-image: url("Steampunk_images/shutterstock_131942996.jpeg");
+  background-size: cover;
+  /* background-image: url("Assets/Steampunk_images/shutterstock_1852804258.jpeg"); */
+  background-image: url("Assets/Steampunk_images/shutterstock_131942996.jpeg");
 }
 
 #hobbies{
@@ -225,8 +221,32 @@ hr {
   font-weight: bold;
 }
 
+.photos{
+  color: white;
+  background-size: cover;
+  background-image: url("Assets/Steampunk_images/shutterstock_1637325505.jpeg");
+  height: 100%;
+}
+
 #photos{
   color: white;
+}
+
+.projects{
+  color: black;
+  background-size: cover;
+  background-image: url("Assets/Steampunk_images/shutterstock_452363785.jpeg");
+  height: 100%;
+}
+
+#projects{
+  color: white;
+}
+
+#projects-row{
+  padding-top: 40px;
+  background-size: cover;
+  background-image: url("Assets/Steampunk_images/AdobeStock_6645031.jpeg");
 }
 
 .contact-wrapper{
@@ -238,58 +258,13 @@ hr {
   background-color: white;
 }
 
-#projects{
-  color: white;
-}
-
-#projects-row{
-  padding-top: 40px;;
-  background-image: url("Steampunk_images/AdobeStock_6645031.jpeg");
-}
-
-#title
-#brief-history{
-  color: black;
-  background-image: url("Steampunk_images/verticalPaper.jpeg");
-  height:  100%;
-}
-
-#long-history{
-  color: black;
-  background-image: url("Steampunk_images/verticalPaper.jpeg");
-  height: 100%;
-}
-
-/* .hobbies{
-  color: black;
-  background-image: url("Steampunk_images/shutterstock_1852804258.jpeg");
-  height: 100%;
-
-} */
-
-.photos{
-  color: white;
-  background-image: url("Steampunk_images/shutterstock_1637325505.jpeg");
-  height: 100%;
-
-}
-
-
 .contact{
   color: black;
   background-color: white;
-  background-image: url("Steampunk_images/shutterstock_1196700412.jpeg");
+  background-size: cover;
+  background-image: url("Assets/Steampunk_images/shutterstock_1196700412.jpeg");
   height: 100%;
-
 }
-
-.projects{
-  color: black;
-  background-image: url("Steampunk_images/shutterstock_452363785.jpeg");
-  height: 100%;
-
-}
-
 
 /* Thumbnails */
 img {
@@ -309,4 +284,24 @@ img {
 /* Add a hover effect (blue shadow) */
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.footer-wrapper {
+  text-align: center;
+  background-color: black;
+}
+
+/* #footer-hr{
+    color: chartreuse;
+} */
+
+#footer-msg {
+  background-color: black;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'VT323';
+  color: chartreuse;
+  font-size: 1.5vw;
+  text-align: center;
+  align-items: center;
 }
